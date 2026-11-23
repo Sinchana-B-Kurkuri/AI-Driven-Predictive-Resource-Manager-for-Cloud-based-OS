@@ -28,18 +28,18 @@
       "current_page": 2,
       "frames_policy": "LRU",
       "health_action": {
-        "action": "RESTART_PROCESS",
-        "pid": 8512,
-        "predicted_ram_percent": 89.10000000000001,
-        "reason": "Memory leak detected for PID 8512",
+        "action": "ALERT_HIGH_PRESSURE",
+        "pid": 9036,
+        "predicted_ram_percent": 96.8,
+        "reason": "Predicted RAM (96.80%) exceeds threshold (90.0%)",
         "source": "MemoryLeakDetector, MemoryPressureForecaster",
         "threshold": 90.0
       },
       "leak_detection": {
-        "growth_rate_bytes_per_step": 1462.8571428571436,
-        "is_leak_detected": true,
-        "proc_pid": 8512,
-        "trend_r2_score": 0.8928571428564499,
+        "growth_rate_bytes_per_step": 0.0,
+        "is_leak_detected": false,
+        "proc_pid": 9036,
+        "trend_r2_score": 1.0,
         "window_size": 8
       },
       "memory_state": [
@@ -103,33 +103,33 @@
         }
       ],
       "pressure_forecast": {
-        "predicted_ram_percent": 89.10000000000001,
+        "predicted_ram_percent": 96.8,
         "window_size": 5
       },
       "reference_length": 12,
       "samples": {
         "count": 8,
         "interval_s": 0.0,
-        "pid": 8512,
+        "pid": 9036,
         "ram_percent": [
-          89.1,
-          89.1,
-          89.1,
-          89.1,
-          89.1,
-          89.1,
-          89.1,
-          89.1
+          96.8,
+          96.8,
+          96.8,
+          96.8,
+          96.8,
+          96.8,
+          96.8,
+          96.8
         ],
         "rss_bytes": [
-          436346880,
-          436346880,
-          436346880,
-          436350976,
-          436350976,
-          436355072,
-          436355072,
-          436355072
+          435834880,
+          435834880,
+          435834880,
+          435834880,
+          435834880,
+          435834880,
+          435834880,
+          435834880
         ]
       }
     }

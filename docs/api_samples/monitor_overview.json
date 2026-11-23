@@ -12,10 +12,10 @@
         "fallback_rate": 0.0,
         "mean_action_delta": null,
         "mean_metrics": {
-          "avg_response_time": 6.963,
-          "avg_turnaround_time": 12.916,
-          "avg_waiting_time": 6.963,
-          "cpu_utilization": 99.88
+          "avg_response_time": 8.107,
+          "avg_turnaround_time": 14.25,
+          "avg_waiting_time": 8.107,
+          "cpu_utilization": 97.18
         },
         "scheduler_distribution": {
           "FCFS": 2
@@ -43,7 +43,7 @@
               "queue_length": 2,
               "response_latency": 6.16,
               "temperature": 35.22,
-              "timestamp": 1792505641.513056
+              "timestamp": 1792572966.4147685
             },
             "temperature": 35.0
           },
@@ -61,7 +61,7 @@
               "queue_length": 2,
               "response_latency": 15.16,
               "temperature": 35.22,
-              "timestamp": 1792505641.513056
+              "timestamp": 1792572966.4147685
             },
             "temperature": 35.0
           },
@@ -79,7 +79,7 @@
               "queue_length": 3,
               "response_latency": 2.16,
               "temperature": 35.22,
-              "timestamp": 1792505641.513056
+              "timestamp": 1792572966.4147685
             },
             "temperature": 35.0
           },
@@ -97,7 +97,7 @@
               "queue_length": 1,
               "response_latency": 0.66,
               "temperature": 35.22,
-              "timestamp": 1792505641.513056
+              "timestamp": 1792572966.4147685
             },
             "temperature": 35.0
           }
@@ -108,12 +108,14 @@
               "backup_location": "cloud://backup/disk_0",
               "device_id": "disk_0",
               "message": "Backup completed successfully.",
+              "sha256": null,
+              "size_bytes": null,
               "success": true,
               "triggered": true
             },
             "device_id": "disk_0",
             "failure_probability": 0.92,
-            "recorded_at": "2026-10-20T14:14:01.496074+00:00",
+            "recorded_at": "2026-10-21T08:56:06.393731+00:00",
             "recovery_result": {
               "backup_device_id": "disk_1",
               "device_id": "disk_0",
@@ -130,19 +132,19 @@
         "proc_pid": null,
         "proc_rss_bytes": null,
         "proc_vms_bytes": null,
-        "ram_available_bytes": 1811816448,
-        "ram_free_bytes": 1811816448,
-        "ram_percent": 89.1,
+        "ram_available_bytes": 522620928,
+        "ram_free_bytes": 522620928,
+        "ram_percent": 96.9,
         "ram_total_bytes": 16639741952,
-        "ram_used_bytes": 14827925504,
-        "swap_free_bytes": 17680162816,
-        "swap_percent": 17.7,
-        "swap_total_bytes": 21474836480,
-        "swap_used_bytes": 3794673664,
-        "timestamp": "2026-10-20T14:14:01.513446"
+        "ram_used_bytes": 16117121024,
+        "swap_free_bytes": 18393866240,
+        "swap_percent": 17.5,
+        "swap_total_bytes": 22308564992,
+        "swap_used_bytes": 3914698752,
+        "timestamp": "2026-10-21T08:56:06.415851"
       },
       "status": "degraded",
-      "timestamp": "2026-10-20T14:14:01.513049+00:00"
+      "timestamp": "2026-10-21T08:56:06.414759+00:00"
     }
   }
 }

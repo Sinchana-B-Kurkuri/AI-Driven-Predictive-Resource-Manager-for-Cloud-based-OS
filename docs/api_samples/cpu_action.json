@@ -144,7 +144,7 @@
             "avg_waiting_time": 8.0,
             "completed_process_count": 5,
             "cpu_utilization": 100.0,
-            "scheduling_overhead_ms": 0.029199989512562752,
+            "scheduling_overhead_ms": 0.062700011767447,
             "total_busy_time": 35.0,
             "total_idle_time": 0.0,
             "total_time": 35.0
@@ -260,7 +260,7 @@
       "process_count": 5,
       "selected_scheduler": "FCFS",
       "step_index": 0,
-      "timestamp": 1792505635.141063,
+      "timestamp": 1792572954.4635167,
       "workload_class": "BALANCED"
     }
   }

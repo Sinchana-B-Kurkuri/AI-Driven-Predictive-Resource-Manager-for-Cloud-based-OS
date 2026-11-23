@@ -16,6 +16,8 @@
         "backup_location": "cloud://backup/disk_0",
         "device_id": "disk_0",
         "message": "Backup completed successfully.",
+        "sha256": null,
+        "size_bytes": null,
         "success": true,
         "triggered": true
       },

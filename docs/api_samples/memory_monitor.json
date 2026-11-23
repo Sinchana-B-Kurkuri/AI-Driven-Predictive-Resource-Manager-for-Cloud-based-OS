@@ -11,16 +11,16 @@
       "proc_pid": null,
       "proc_rss_bytes": null,
       "proc_vms_bytes": null,
-      "ram_available_bytes": 2003451904,
-      "ram_free_bytes": 2003451904,
-      "ram_percent": 88.0,
+      "ram_available_bytes": 732340224,
+      "ram_free_bytes": 732340224,
+      "ram_percent": 95.6,
       "ram_total_bytes": 16639741952,
-      "ram_used_bytes": 14636290048,
-      "swap_free_bytes": 17678217216,
-      "swap_percent": 17.7,
-      "swap_total_bytes": 21474836480,
-      "swap_used_bytes": 3796619264,
-      "timestamp": "2026-10-20T14:13:55.402885"
+      "ram_used_bytes": 15907401728,
+      "swap_free_bytes": 18384429056,
+      "swap_percent": 17.6,
+      "swap_total_bytes": 22308564992,
+      "swap_used_bytes": 3924135936,
+      "timestamp": "2026-10-21T08:55:54.781286"
     }
   }
 }
